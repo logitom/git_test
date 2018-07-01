@@ -1,0 +1,36 @@
+rm -rf .git
+git status
+
+git core editor
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+list all config
+git config --global --list
+
+git config --global -e
+git setting
+
+git config --global user.name "name"   
+git config --global user.email "email"
+
+
+git clone  "url"
+
+
+git add "filename"
+
+commit
+git commit -m "comment"
+
+push
+git push origin master
+
+
+init a new project
+git init
+git add .
+git commit -m "contiki"
+
+git pull origin master
+git push origin master
+
